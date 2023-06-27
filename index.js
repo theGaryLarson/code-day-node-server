@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
             break;
         case '.jpg':
             contentType = 'image/jpg';
-            break
+            break;
     }
 
     // Read file
